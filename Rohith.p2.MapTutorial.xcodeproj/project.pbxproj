@@ -7,21 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		38078D4D1D90929E003E07B4 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38078D4C1D90929E003E07B4 /* AVFoundation.framework */; };
+		381640BE1D8B02C4007B158E /* UserInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381640BD1D8B02C4007B158E /* UserInfoViewController.swift */; };
+		381640C01D8B04CA007B158E /* mapQuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381640BF1D8B04CA007B158E /* mapQuizViewController.swift */; };
+		3822E4E71D8DFDE0006DFA50 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3822E4E61D8DFDE0006DFA50 /* InfoViewController.swift */; };
 		3894A9231D8998A400CEE704 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3894A9221D8998A400CEE704 /* AppDelegate.swift */; };
-		3894A9251D8998A400CEE704 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3894A9241D8998A400CEE704 /* ViewController.swift */; };
 		3894A9281D8998A400CEE704 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3894A9261D8998A400CEE704 /* Main.storyboard */; };
 		3894A92A1D8998A400CEE704 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3894A9291D8998A400CEE704 /* Assets.xcassets */; };
 		3894A92D1D8998A400CEE704 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3894A92B1D8998A400CEE704 /* LaunchScreen.storyboard */; };
+		3894A9351D89A33C00CEE704 /* LearnTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3894A9341D89A33C00CEE704 /* LearnTableViewController.swift */; };
+		3894A9371D89B4CB00CEE704 /* MapLearnVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3894A9361D89B4CB00CEE704 /* MapLearnVC.swift */; };
+		38E6E3F51D89EA1F00E6D1FD /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38E6E3F41D89EA1F00E6D1FD /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		38078D4C1D90929E003E07B4 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		381640BD1D8B02C4007B158E /* UserInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInfoViewController.swift; sourceTree = "<group>"; };
+		381640BF1D8B04CA007B158E /* mapQuizViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mapQuizViewController.swift; sourceTree = "<group>"; };
+		3822E4E61D8DFDE0006DFA50 /* InfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
 		3894A91F1D8998A400CEE704 /* Rohith.p2.MapTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rohith.p2.MapTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3894A9221D8998A400CEE704 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3894A9241D8998A400CEE704 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3894A9271D8998A400CEE704 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3894A9291D8998A400CEE704 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3894A92C1D8998A400CEE704 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3894A92E1D8998A400CEE704 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3894A9341D89A33C00CEE704 /* LearnTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LearnTableViewController.swift; sourceTree = "<group>"; };
+		3894A9361D89B4CB00CEE704 /* MapLearnVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapLearnVC.swift; sourceTree = "<group>"; };
+		38E6E3F41D89EA1F00E6D1FD /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,15 +41,45 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38078D4D1D90929E003E07B4 /* AVFoundation.framework in Frameworks */,
+				38E6E3F51D89EA1F00E6D1FD /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3822E4E31D8CA80D006DFA50 /* Learn */ = {
+			isa = PBXGroup;
+			children = (
+				3894A9341D89A33C00CEE704 /* LearnTableViewController.swift */,
+				3894A9361D89B4CB00CEE704 /* MapLearnVC.swift */,
+			);
+			name = Learn;
+			sourceTree = "<group>";
+		};
+		3822E4E41D8CA810006DFA50 /* Quiz */ = {
+			isa = PBXGroup;
+			children = (
+				381640BD1D8B02C4007B158E /* UserInfoViewController.swift */,
+				381640BF1D8B04CA007B158E /* mapQuizViewController.swift */,
+			);
+			name = Quiz;
+			sourceTree = "<group>";
+		};
+		3822E4E51D8CA813006DFA50 /* Info */ = {
+			isa = PBXGroup;
+			children = (
+				3822E4E61D8DFDE0006DFA50 /* InfoViewController.swift */,
+			);
+			name = Info;
+			sourceTree = "<group>";
+		};
 		3894A9161D8998A400CEE704 = {
 			isa = PBXGroup;
 			children = (
+				38078D4C1D90929E003E07B4 /* AVFoundation.framework */,
+				38E6E3F41D89EA1F00E6D1FD /* CoreLocation.framework */,
 				3894A9211D8998A400CEE704 /* Rohith.p2.MapTutorial */,
 				3894A9201D8998A400CEE704 /* Products */,
 			);
@@ -54,8 +96,10 @@
 		3894A9211D8998A400CEE704 /* Rohith.p2.MapTutorial */ = {
 			isa = PBXGroup;
 			children = (
+				3822E4E51D8CA813006DFA50 /* Info */,
+				3822E4E41D8CA810006DFA50 /* Quiz */,
+				3822E4E31D8CA80D006DFA50 /* Learn */,
 				3894A9221D8998A400CEE704 /* AppDelegate.swift */,
-				3894A9241D8998A400CEE704 /* ViewController.swift */,
 				3894A9261D8998A400CEE704 /* Main.storyboard */,
 				3894A9291D8998A400CEE704 /* Assets.xcassets */,
 				3894A92B1D8998A400CEE704 /* LaunchScreen.storyboard */,
@@ -135,8 +179,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3894A9251D8998A400CEE704 /* ViewController.swift in Sources */,
+				3894A9371D89B4CB00CEE704 /* MapLearnVC.swift in Sources */,
+				381640BE1D8B02C4007B158E /* UserInfoViewController.swift in Sources */,
 				3894A9231D8998A400CEE704 /* AppDelegate.swift in Sources */,
+				381640C01D8B04CA007B158E /* mapQuizViewController.swift in Sources */,
+				3822E4E71D8DFDE0006DFA50 /* InfoViewController.swift in Sources */,
+				3894A9351D89A33C00CEE704 /* LearnTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +336,7 @@
 				3894A9331D8998A400CEE704 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

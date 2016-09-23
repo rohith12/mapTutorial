@@ -15,6 +15,24 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
+        
+//        UITabBar.appearance().tintColor = UIColor(red: 255/255.0, green: 255/255.0, blue: 255/255.0, alpha: 1.0)
+        let colorNormal : UIColor = UIColor.grayColor()
+        let colorSelected : UIColor = UIColor.whiteColor()
+        let titleFontAll : UIFont = UIFont(name: "American Typewriter", size: 14.0)!
+        
+        let attributesNormal = [
+            NSForegroundColorAttributeName : colorNormal,
+            NSFontAttributeName : titleFontAll
+        ]
+        
+        let attributesSelected = [
+            NSForegroundColorAttributeName : colorSelected,
+            NSFontAttributeName : titleFontAll
+        ]
+        
+        UITabBarItem.appearance().setTitleTextAttributes(attributesNormal, forState: .Normal)
+        UITabBarItem.appearance().setTitleTextAttributes(attributesSelected, forState: .Selected)
         // Override point for customization after application launch.
         return true
     }
